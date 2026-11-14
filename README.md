@@ -6,7 +6,7 @@
 
 [![Paper](https://img.shields.io/badge/Paper-IEEE%20Xplore-00629B.svg)](https://ieeexplore.ieee.org/abstract/document/10008291)
 
-<img src="images/hardware.png" width="600" alt="IGforVIP hardware prototype">
+<img src="hardware.png" width="600" alt="IGforVIP hardware prototype">
 
 *Prototype: 1) push button 2) glasses 3) ultrasonic sensor 4) camera 5) vibration motor 6) USB mic 7) Raspberry Pi 4 8) power socket 9) headphone jack*
 
