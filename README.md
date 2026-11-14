@@ -150,40 +150,21 @@ IGforVIP/
 └── LICENSE
 ```
 
-## 🚧 Limitations & future work
-
-- Face recognition needs good lighting and does not work well in the dark.
-- Voice commands need an internet connection (Google Speech API).
-- The *shutdown* voice command described in the paper is not in this version of `speech.py`.
-- **Future work:** text recognition (OCR), scene description, and offloading computation to the cloud (e.g. Azure) for a lighter, faster device.
 
 ## 📄 Publication
 
-> A. Mustafa, A. Omer, and O. Mohammed, "Intelligent Glasses for Visually Impaired People," *<Conference / Journal name>*, 2022. [[PDF]](paper/Intelligent_Glasses_for_Visually_Impaired_People.pdf)
+> A. Mustafa, A. Omer, and O. Mohammed, "Intelligent Glasses for Visually Impaired People," *2022 14th International Conference on Computational Intelligence and Communication Networks (CICN)*, 2022. [[PDF]](paper/Intelligent_Glasses_for_Visually_Impaired_People.pdf)
 
 ```bibtex
 @inproceedings{mustafa2022igforvip,
   title     = {Intelligent Glasses for Visually Impaired People},
   author    = {Mustafa, Ali and Omer, Ahmed and Mohammed, Ogba},
-  booktitle = {<Conference / Journal name>},
+  booktitle = {2022 14th International Conference on Computational Intelligence and Communication Networks (CICN)},
   year      = {2022},
-  doi       = {<DOI>}
+  doi       = {10.1109/CICN56167.2022.10008291}
 }
 ```
 
-## 👥 Team
-
-Sudan University of Science and Technology, School of Electrical and Nuclear Engineering, 2022
-
-- **Ali Motasim Aalim Mustafa**
-- **Ahmed Abdullatif Mohammed Omer**
-- **Mohammed Abdelazeem Aljack Maryoud**
-- **Ogba Majdy Ahmed Mohammed Ali**
-
-**Supervisor:** Ust. Galal Abdalrahman Mohammed Hammad
-
-### Acknowledgments
-We thank Eng. Aalim Mustafa for his guidance and support, and Dr. Ayman Tawfiq and Eng. Mohammed Noman (Ajman University) for their help with the paper.
 
 ## 📜 License
 
