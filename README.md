@@ -102,6 +102,7 @@ IGforVIP/
 │   ├── utils.py                 # Bounding-box drawing (TensorFlow examples, Apache 2.0)
 │   ├── efficientdet_lite0.tflite# Pre-trained object detection model
 │   └── voices/                  # Pre-recorded audio for object names, names and prompts
+├── hardware.png
 ├── requirements.txt
 └── LICENSE
 ```
