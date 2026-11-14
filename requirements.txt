@@ -1,0 +1,14 @@
+# Raspberry Pi hardware
+RPi.GPIO
+picamera            # legacy camera stack (Raspberry Pi OS Legacy)
+
+# Vision
+numpy>=1.20.0
+opencv-python~=4.5.3.56
+face_recognition    # pulls in dlib (slow to build on the Pi)
+tflite-runtime      # or install full tensorflow instead
+
+# Audio and voice
+pygame
+SpeechRecognition
+PyAudio

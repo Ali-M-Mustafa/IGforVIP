@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Personal face photos: keep them out of the public repo
+src/people/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
