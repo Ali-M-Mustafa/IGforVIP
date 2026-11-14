@@ -14,7 +14,7 @@
 
 ---
 
-## 📖 Overview
+## Overview
 
 More than 2 billion people worldwide live with some form of vision impairment (WHO, 2019). Commercial assistive glasses such as OrCam MyEye cost thousands of dollars. **IGforVIP** is our B.Sc. graduation project at **Sudan University of Science and Technology** (Electrical Engineering). It combines the core features of those devices in a **~$170, 320 g** prototype that runs fully on a Raspberry Pi 4.
 
@@ -22,13 +22,13 @@ The user picks a mode by voice, and the glasses respond with **audio** (names of
 
 | Mode | What it does | How |
 |---|---|---|
-| 🧭 **Navigation** *(default)* | Vibrates when an obstacle is within **50 cm**. Pulses get faster as it gets closer | HC-SR04 ultrasonic sensor + vibration motor |
-| 🙂 **Face Recognition** | Speaks the name of known people in front of the user | [`face_recognition`](https://github.com/ageitgey/face_recognition) (dlib, 99.38% on LFW) |
-| 📦 **Object Detection** | Speaks the names of everyday objects (cup, chair, laptop, …) | TensorFlow Lite **EfficientDet-Lite0** (80 COCO classes) |
+| **Navigation** *(default)* | Vibrates when an obstacle is within **50 cm**. Pulses get faster as it gets closer | HC-SR04 ultrasonic sensor + vibration motor |
+| **Face Recognition** | Speaks the name of known people in front of the user | [`face_recognition`](https://github.com/ageitgey/face_recognition) (dlib, 99.38% on LFW) |
+| **Object Detection** | Speaks the names of everyday objects (cup, chair, laptop, …) | TensorFlow Lite **EfficientDet-Lite0** (80 COCO classes) |
 
 Navigation is the default because it uses little compute and also works in the dark.
 
-## ⚙️ How it works
+## How it works
 
 <p align="center">
   <img src="images/block_diagram.png" width="48%" alt="Block diagram">
@@ -46,7 +46,7 @@ Navigation is the default because it uses little compute and also works in the d
   <br><em>Flowcharts: (a) face recognition (b) object detection (c) navigation</em>
 </p>
 
-## 📊 Results
+## Results
 
 <p align="center">
   <img src="images/object_detection_results.png" width="55%" alt="Object detection examples">
@@ -61,7 +61,7 @@ Navigation is the default because it uses little compute and also works in the d
 <p align="center"><img src="images/face_recognition_demo.png" width="350" alt="Face recognition demo"></p>
 
 
-## 🔧 Hardware
+## Hardware
 
 | Component | Purpose |
 |---|---|
@@ -75,7 +75,7 @@ Navigation is the default because it uses little compute and also works in the d
 | 10,000 mAh power bank | Power (carried in an arm bag with the Pi) |
 
 
-## 🚀 Getting started
+## Getting started
 
 ### 1. Requirements
 - Raspberry Pi 4 running **Raspberry Pi OS (Legacy)** with the legacy camera stack enabled. The code uses the original `picamera` library.
@@ -102,7 +102,7 @@ python3 IGforVIP.py
 ```
 Run from inside `src/` because the code loads `voices/`, `people/`, and the model using relative paths.
 
-## 📁 Repository structure
+## Repository structure
 
 ```
 IGforVIP/
