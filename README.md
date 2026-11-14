@@ -5,8 +5,6 @@
 **A low-cost wearable assistant built on a Raspberry Pi 4 that recognizes faces, detects objects, and warns about obstacles, controlled entirely by voice.**
 
 [![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b.svg)](paper/Intelligent_Glasses_for_Visually_Impaired_People.pdf)
-[![Thesis](https://img.shields.io/badge/B.Sc._Thesis-PDF-blue.svg)](docs/BSc_Thesis_IGforVIP.pdf)
-[![Slides](https://img.shields.io/badge/Slides-PDF-orange.svg)](docs/Paper_Presentation.pdf)
 ![Python](https://img.shields.io/badge/Python-3-3776AB?logo=python&logoColor=white)
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-4B-C51A4A?logo=raspberrypi&logoColor=white)
 ![TensorFlow Lite](https://img.shields.io/badge/TensorFlow-Lite-FF6F00?logo=tensorflow&logoColor=white)
@@ -65,17 +63,6 @@ Navigation is the default because it uses little compute and also works in the d
 
 <p align="center"><img src="images/face_recognition_demo.png" width="350" alt="Face recognition demo"></p>
 
-### Comparison with commercial products
-
-| | **IGforVIP** | Envision Glasses | OrCam MyEye 2 |
-|---|---|---|---|
-| Face recognition | ✅ | ✅ | ✅ |
-| Object detection | ✅ | ✅ | ✅ |
-| Obstacle detection | ✅ Ultrasonic | GPS navigation | ❌ |
-| Control | Voice + button | Voice / touchpad | Voice / gesture |
-| Price | **~$170** | $1,796 | $3,699 |
-
-*Full comparison in Table 1 of the [paper](paper/Intelligent_Glasses_for_Visually_Impaired_People.pdf).*
 
 ## 🔧 Hardware
 
@@ -90,16 +77,6 @@ Navigation is the default because it uses little compute and also works in the d
 | Wired headphones (3.5 mm) | Audio feedback |
 | 10,000 mAh power bank | Power (carried in an arm bag with the Pi) |
 
-**Wiring** (physical `BOARD` pin numbers, as set in the code):
-
-| Pin | Connected to |
-|---|---|
-| 31 | Push button (input, pull-down) |
-| 33 | Vibration motor |
-| 35 | HC-SR04 `ECHO` |
-| 37 | HC-SR04 `TRIG` |
-
-> ⚠️ The HC-SR04 `ECHO` pin outputs 5 V. Use a voltage divider (e.g. 1 kΩ / 2 kΩ) before connecting it to the Pi's 3.3 V GPIO.
 
 ## 🚀 Getting started
 
@@ -144,8 +121,6 @@ IGforVIP/
 │   ├── efficientdet_lite0.tflite# Pre-trained object detection model
 │   └── voices/                  # Pre-recorded audio for object names, names and prompts
 ├── paper/                       # Published paper (PDF)
-├── docs/                        # B.Sc. thesis, presentation slides, project proposal
-├── images/                      # Figures used in this README
 ├── requirements.txt
 └── LICENSE
 ```
