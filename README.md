@@ -110,8 +110,8 @@ Navigation is the default because it uses little compute and also works in the d
 
 ### 2. Install
 ```bash
-git clone https://github.com/Ali-M-Mustafa/smart-glasses-for-visually-impaired.git
-cd smart-glasses-for-visually-impaired
+git clone https://github.com/Ali-M-Mustafa/IGforVIP.git
+cd IGforVIP
 
 sudo apt install -y portaudio19-dev cmake libatlas-base-dev   # needed by PyAudio and dlib
 pip3 install -r requirements.txt
