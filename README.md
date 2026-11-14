@@ -108,7 +108,7 @@ IGforVIP/
 ```
 
 
-## 📄 Publication
+## Publication
 
 > A. Mustafa, A. Omer, and O. Mohammed, "Intelligent Glasses for Visually Impaired People," *2022 14th International Conference on Computational Intelligence and Communication Networks (CICN)*, 2022. [[PDF]](paper/Intelligent_Glasses_for_Visually_Impaired_People.pdf)
 
@@ -123,6 +123,6 @@ IGforVIP/
 ```
 
 
-## 📜 License
+## License
 
 The project code is released under the [MIT License](LICENSE). `object_detector.py` and `utils.py` are adapted from the TensorFlow Lite examples and remain under the Apache 2.0 License, as noted in their file headers.
