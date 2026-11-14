@@ -4,7 +4,7 @@
 
 **A low-cost wearable assistant built on a Raspberry Pi 4 that recognizes faces, detects objects, and warns about obstacles, controlled entirely by voice.** 
 
-[![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b.svg)](paper/Intelligent_Glasses_for_Visually_Impaired_People.pdf)
+[![Paper](https://img.shields.io/badge/Paper-IEEE%20Xplore-00629B.svg)](https://ieeexplore.ieee.org/abstract/document/10008291)
 
 <img src="images/hardware.png" width="600" alt="IGforVIP hardware prototype">
 
@@ -110,7 +110,7 @@ IGforVIP/
 
 ## Publication
 
-> A. Mustafa, A. Omer, and O. Mohammed, "Intelligent Glasses for Visually Impaired People," *2022 14th International Conference on Computational Intelligence and Communication Networks (CICN)*, 2022. [[PDF]](paper/Intelligent_Glasses_for_Visually_Impaired_People.pdf)
+> A. Mustafa, A. Omer, and O. Mohammed, "Intelligent Glasses for Visually Impaired People," *2022 14th International Conference on Computational Intelligence and Communication Networks (CICN)*, 2022. [[PDF]](https://ieeexplore.ieee.org/abstract/document/10008291)
 
 ```bibtex
 @inproceedings{mustafa2022igforvip,
