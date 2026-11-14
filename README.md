@@ -5,9 +5,6 @@
 **A low-cost wearable assistant built on a Raspberry Pi 4 that recognizes faces, detects objects, and warns about obstacles, controlled entirely by voice.**
 
 [![Paper](https://img.shields.io/badge/Paper-PDF-b31b1b.svg)](paper/Intelligent_Glasses_for_Visually_Impaired_People.pdf)
-![Python](https://img.shields.io/badge/Python-3-3776AB?logo=python&logoColor=white)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-4B-C51A4A?logo=raspberrypi&logoColor=white)
-![TensorFlow Lite](https://img.shields.io/badge/TensorFlow-Lite-FF6F00?logo=tensorflow&logoColor=white)
 
 <img src="images/hardware.png" width="600" alt="IGforVIP hardware prototype">
 
