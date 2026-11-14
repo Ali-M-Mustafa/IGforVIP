@@ -30,35 +30,20 @@ Navigation is the default because it uses little compute and also works in the d
 
 ## How it works
 
-<p align="center">
-  <img src="images/block_diagram.png" width="48%" alt="Block diagram">
-  <img src="images/system_flowchart.png" width="48%" alt="System flowchart">
-</p>
-
 1. On power-up the glasses start in **Navigation** mode.
 2. The user presses the **push button**. A voice asks *"Hi user, what mode do you want?"*
 3. The user says a keyword such as **"face"** / **"recognition"**, **"object"** / **"detection"**, or **"vibration"**. Speech is converted to text with the Google Speech Recognition API.
 4. The selected mode runs in a loop until the button is pressed again.
 5. To avoid repeating itself, the system remembers the most recent detections and only announces a name when it is new.
 
-<p align="center">
-  <img src="images/mode_flowcharts.png" width="60%" alt="Mode flowcharts">
-  <br><em>Flowcharts: (a) face recognition (b) object detection (c) navigation</em>
-</p>
+
 
 ## Results
-
-<p align="center">
-  <img src="images/object_detection_results.png" width="55%" alt="Object detection examples">
-  <img src="images/performance.png" width="40%" alt="Detection time and accuracy">
-</p>
 
 - **Speed:** each object detection takes **under ~0.5 s** on the Raspberry Pi 4, which is fast enough for real-time use.
 - **Accuracy:** good on most objects. Small tables are sometimes confused with chairs because both have four legs close together.
 - **Face recognition:** highly accurate, but speed depends on lighting and image clarity.
 - **Battery:** ~12 h on a 10,000 mAh power bank.
-
-<p align="center"><img src="images/face_recognition_demo.png" width="350" alt="Face recognition demo"></p>
 
 
 ## Hardware
