@@ -130,3 +130,8 @@ IGforVIP/
 ## License
 
 The project code is released under the [MIT License](LICENSE). `object_detector.py` and `utils.py` are adapted from the TensorFlow Lite examples and remain under the Apache 2.0 License, as noted in their file headers.
+
+Third-party code:
+- `dwa_crane_optimized.m` is adapted from `DynamicWindowApproachSample.m` in Atsushi Sakai's [MATLABRobotics](https://github.com/AtsushiSakai/MATLABRobotics), Copyright (c) 2014 Atsushi Sakai, Modified BSD License. Changes: holonomic (vx, vy) velocity window, a new goal and clearance evaluation, and the DE-tuned crane controller in the loop.
+
+The Dynamic Window Approach itself is from D. Fox, W. Burgard and S. Thrun, "The Dynamic Window Approach to Collision Avoidance," *IEEE Robotics & Automation Magazine*, vol. 4, no. 1, pp. 23–33, 1997.
