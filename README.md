@@ -1,5 +1,8 @@
-# IGforVIP 
-### Intelligent Glasses for Visually Impaired People
+<div align="center">
+
+# IGforVIP — Intelligent Glasses for Visually Impaired People
+
+**A low-cost wearable assistant built on a Raspberry Pi 4 that recognizes faces, detects objects, and warns about obstacles, controlled entirely by voice.**
 
 [![Paper](https://img.shields.io/badge/Paper-IEEE%20Xplore-00629B.svg)](https://ieeexplore.ieee.org/abstract/document/10008291)
 
